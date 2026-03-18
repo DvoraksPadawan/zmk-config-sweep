@@ -6,15 +6,27 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        english {
             bindings = <
 &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp DOT  &kp A  &kp R  &kp S  &kp T  &kp G  &kp M  &kp N  &kp E  &kp I  &kp O  &kp X  &kp C  &kp D  &kp V  &kp Z  &kp K  &kp H  &kp DOT  &kp DOT  &kp DOT  &kp ESC  &kp BSPC  &kp SPACE  &kp RET
             >;
         };
 
-        movement {
+        symbols {
             bindings = <
 &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp DOT  &kp DOT  &kp DOT  &kp DOT  &trans  &kp DOT  &kp LEFT  &kp UP  &kp RIGHT  &kp DOT  &kp DOT  &kp DOT  &trans  &trans  &trans  &kp DOT  &kp DOT  &kp DOWN  &kp DOT  &kp DOT  &kp ESC  &kp BSPC  &kp SPACE  &kp RET
+            >;
+        };
+
+        layer_2 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        czech {
+            bindings = <
+&kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp DOT  &kp A  &kp R  &kp S  &kp T  &kp G  &kp M  &kp N  &kp E  &kp I  &kp O  &kp X  &kp C  &kp D  &kp V  &kp Z  &kp K  &kp H  &kp DOT  &kp DOT  &kp DOT  &kp ESC  &kp BSPC  &kp SPACE  &kp RET
             >;
         };
     };
