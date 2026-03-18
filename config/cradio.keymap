@@ -53,7 +53,7 @@
 
         letters {
             bindings = <
-&kp Q  &kp W  &kp F  &ths LEFT_SHIFT P  &kp B  &kp J  &tht CAPSLOCK L  &th DOUBLE_QUOTES U  &th N7 Y  &to 2  &th N8 A  &th N5 R  &th NUMBER_3 S  &thl 1 T  &kp G  &kp M  &th LCMD N  &b_e  &th N9 I  &kp O  &kp X  &th NUMBER_4 C  &kp D  &ths LEFT_CONTROL V  &th NUMBER_6 Z  &kp K  &ths LEFT_ALT H  &kp COMMA  &kp DOT  &kp DOT  &th ESC TAB  &kp BSPC  &kp SPACE  &kp ENTER
+&kp Q  &kp W  &kp F  &ths LEFT_SHIFT P  &kp B  &kp J  &tht CAPSLOCK L  &th DOUBLE_QUOTES U  &th N7 Y  &to 4  &th N8 A  &th N5 R  &th NUMBER_3 S  &thl 1 T  &kp G  &kp M  &th LCMD N  &b_e  &th N9 I  &kp O  &kp X  &th NUMBER_4 C  &kp D  &ths LEFT_CONTROL V  &th NUMBER_6 Z  &kp K  &ths LEFT_ALT H  &kp COMMA  &kp DOT  &kp DOT  &th ESC TAB  &kp BSPC  &kp SPACE  &kp ENTER
             >;
         };
 
@@ -72,6 +72,12 @@
         english {
             bindings = <
 &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp DOT  &kp A  &kp R  &kp S  &kp T  &kp G  &kp M  &kp N  &kp E  &kp I  &kp O  &kp X  &kp C  &kp D  &kp V  &kp Z  &kp K  &kp H  &kp DOT  &kp DOT  &kp DOT  &kp ESC  &kp BSPC  &kp SPACE  &kp RET
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &sk LCTRL  &kp C  &kp V  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
