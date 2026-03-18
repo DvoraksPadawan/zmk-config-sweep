@@ -4,9 +4,9 @@
 
 / {
     behaviors {
-        diacritics_hold: diacritics_hold {
+        th: tap-hold {
             compatible = "zmk,behavior-hold-tap";
-            label = "DIACRITICS_HOLD";
+            label = "TAP-HOLD";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -17,34 +17,46 @@
             compatible = "zmk,behavior-tap-dance";
             label = "B_E";
             #binding-cells = <0>;
-            bindings = <&diacritics_hold N0 E>, <&kp N2>;
+            bindings = <&th N0 E>, <&kp N2>;
+        };
+
+        ths: tap-hold-sticky {
+            compatible = "zmk,behavior-hold-tap";
+            label = "tap-hold-sticky";
+            bindings = <&sk>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
+
+        thl: tap-hold-layer {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TAP-HOLD-LAYER";
+            bindings = <&to>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
         };
     };
 
     keymap {
         compatible = "zmk,keymap";
 
-        english {
+        letters {
             bindings = <
-&kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp DOT  &kp A  &kp R  &kp S  &kp T  &kp G  &kp M  &kp N  &kp E  &kp I  &kp O  &kp X  &kp C  &kp D  &kp V  &kp Z  &kp K  &kp H  &kp DOT  &kp DOT  &kp DOT  &kp ESC  &kp BSPC  &kp SPACE  &kp RET
+&kp Q  &kp W  &kp F  &ths LEFT_SHIFT P  &kp B  &kp J  &kp L  &th U DOUBLE_QUOTES  &th Y N7  &kp DOT  &th A N8  &th R N5  &th S N3  &thl 1 T  &kp G  &kp M  &kp N  &b_e  &th I N9  &kp O  &kp X  &th C N4  &kp D  &ths LEFT_CONTROL V  &th Z N6  &kp K  &kp H  &kp COMMA  &kp DOT  &kp DOT  &th ESC DOT  &kp BSPC  &kp SPACE  &th ENTER TAB
             >;
         };
 
         symbols {
             bindings = <
-&kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &kp DOT  &kp DOT  &kp DOT  &kp DOT  &trans  &kp DOT  &kp LEFT  &kp UP  &kp RIGHT  &kp DOT  &kp DOT  &kp DOT  &trans  &trans  &trans  &kp DOT  &kp DOT  &kp DOWN  &kp DOT  &kp DOT  &kp ESC  &kp BSPC  &kp SPACE  &kp RET
+&kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &ths LEFT_SHIFT LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &kp DOT  &kp DOT  &kp DOT  &thl 0 DOT  &trans  &kp DOT  &kp LEFT  &kp UP  &kp RIGHT  &kp DOT  &kp DOT  &kp DOT  &trans  &ths LEFT_CONTROL DOT  &trans  &kp DOT  &kp DOT  &kp DOWN  &kp DOT  &kp DOT  &kp ESC  &kp BSPC  &kp SPACE  &th TAB RET
             >;
         };
 
-        layer_2 {
+        english {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        czech {
-            bindings = <
-&kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &diacritics_hold U DOUBLE_QUOTES  &diacritics_hold Y N7  &kp DOT  &diacritics_hold A N8  &diacritics_hold R N5  &diacritics_hold S N3  &kp T  &kp G  &kp M  &kp N  &b_e  &diacritics_hold I N9  &kp O  &kp X  &diacritics_hold C N4  &kp D  &kp V  &diacritics_hold Z N6  &kp K  &kp H  &kp DOT  &kp DOT  &kp DOT  &kp ESC  &kp BSPC  &kp SPACE  &kp RET
+&kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp DOT  &kp A  &kp R  &kp S  &kp T  &kp G  &kp M  &kp N  &kp E  &kp I  &kp O  &kp X  &kp C  &kp D  &kp V  &kp Z  &kp K  &kp H  &kp DOT  &kp DOT  &kp DOT  &kp ESC  &kp BSPC  &kp SPACE  &kp RET
             >;
         };
     };
