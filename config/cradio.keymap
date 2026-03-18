@@ -44,7 +44,7 @@
 
         letters {
             bindings = <
-&kp Q  &kp W  &kp F  &ths LEFT_SHIFT P  &kp B  &kp J  &kp L  &th U DOUBLE_QUOTES  &th Y N7  &kp DOT  &th A N8  &th R N5  &th S N3  &thl 1 T  &kp G  &kp M  &kp N  &b_e  &th I N9  &kp O  &kp X  &th C N4  &kp D  &ths LEFT_CONTROL V  &th Z N6  &kp K  &kp H  &kp COMMA  &kp DOT  &kp DOT  &th ESC DOT  &kp BSPC  &kp SPACE  &th ENTER TAB
+&kp Q  &kp W  &kp F  &ths LEFT_SHIFT P  &kp B  &kp J  &kp L  &th DOUBLE_QUOTES U  &th N7 Y  &kp DOT  &th N8 A  &th N5 R  &th NUMBER_3 S  &thl 1 T  &kp G  &kp M  &kp N  &b_e  &th N9 I  &kp O  &kp X  &th NUMBER_4 C  &kp D  &ths LEFT_CONTROL V  &th NUMBER_6 Z  &kp K  &kp H  &kp COMMA  &kp DOT  &kp DOT  &th ESC DOT  &kp BSPC  &kp SPACE  &th ENTER TAB
             >;
         };
 
