@@ -53,19 +53,19 @@
 
         letters {
             bindings = <
-&kp Q  &kp W  &kp F  &ths LEFT_SHIFT P  &kp B  &kp J  &tht CAPSLOCK L  &th DOUBLE_QUOTES U  &th N7 Y  &to 4  &th N8 A  &th N5 R  &th NUMBER_3 S  &thl 1 T  &kp G  &kp M  &th LCMD N  &b_e  &th N9 I  &kp O  &kp X  &th NUMBER_4 C  &kp D  &ths LEFT_CONTROL V  &th NUMBER_6 Z  &kp K  &ths LEFT_ALT H  &kp COMMA  &kp DOT  &kp DOT  &th ESC TAB  &kp BSPC  &kp SPACE  &kp ENTER
+&kp Q  &kp W  &kp F  &ths LEFT_SHIFT P  &kp B  &kp J  &tht CAPSLOCK L  &th DOUBLE_QUOTES U  &th N7 Y  &to 2  &th N8 A  &th N5 R  &th NUMBER_3 S  &thl 1 T  &kp G  &kp M  &th LCMD N  &b_e  &th N9 I  &kp O  &kp X  &th NUMBER_4 C  &kp D  &ths LEFT_CONTROL V  &th NUMBER_6 Z  &kp K  &ths LEFT_ALT H  &kp COMMA  &kp DOT  &kp DOT  &th ESC TAB  &kp BSPC  &kp SPACE  &kp ENTER
             >;
         };
 
         symbols {
             bindings = <
-&kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &ths LEFT_SHIFT LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &kp DOT  &kp DOT  &kp DOT  &thl 0 DOT  &trans  &kp DOT  &kp LEFT  &kp UP  &kp RIGHT  &kp DOT  &kp DOT  &kp DOT  &trans  &ths LEFT_CONTROL DOT  &trans  &kp DOT  &kp DOT  &kp DOWN  &kp DOT  &kp DOT  &th ESC TAB  &kp BSPC  &kp SPACE  &kp ENTER
+&kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &ths LEFT_SHIFT LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &th DOUBLE_QUOTES SINGLE_QUOTE  &kp LEFT  &kp UP  &kp RIGHT  &thl 0 DOT  &th BACKSLASH SLASH  &th SEMICOLON COLON  &th RPAR LPAR  &th RBKT LBKT  &th LEFT_BRACE RIGHT_BRACE  &th PLUS MINUS  &th EQUAL UNDERSCORE  &kp DOWN  &ths CARET ASTERISK  &th GREATER_THAN LESS_THAN  &th DOT AMPERSAND  &th AT HASH  &th EXCLAMATION COMMA  &th QUESTION DOT  &th GREATER_THAN LESS_THAN  &th ESC TAB  &kp BSPC  &kp SPACE  &kp ENTER
             >;
         };
 
         function_keys {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp RGUI  &to 0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp RGUI  &to 0  &to 0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
