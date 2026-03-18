@@ -59,7 +59,7 @@
 
         symbols {
             bindings = <
-&kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &ths LEFT_SHIFT LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &kp DOT  &kp DOT  &kp DOT  &thl 0 DOT  &trans  &kp DOT  &kp LEFT  &kp UP  &kp RIGHT  &kp DOT  &kp DOT  &kp DOT  &trans  &ths LEFT_CONTROL DOT  &trans  &kp DOT  &kp DOT  &kp DOWN  &kp DOT  &kp DOT  &kp ESC  &kp BSPC  &kp SPACE  &th TAB RET
+&kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &ths LEFT_SHIFT LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &kp DOT  &kp DOT  &kp DOT  &thl 0 DOT  &trans  &kp DOT  &kp LEFT  &kp UP  &kp RIGHT  &kp DOT  &kp DOT  &kp DOT  &trans  &ths LEFT_CONTROL DOT  &trans  &kp DOT  &kp DOT  &kp DOWN  &kp DOT  &kp DOT  &th ESC TAB  &kp BSPC  &kp SPACE  &kp ENTER
             >;
         };
 
