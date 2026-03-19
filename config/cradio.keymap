@@ -59,7 +59,7 @@
 
         symbols {
             bindings = <
-&th PAGE_UP LS(N1)  &th HOME LS(N2)  &th END LS(N3)  &ths LEFT_SHIFT LS(N4)  &th LS(PAGE_DOWN) LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &th DOUBLE_QUOTES SINGLE_QUOTE  &kp LEFT  &kp UP  &kp RIGHT  &thl 0 PERCENT  &th BACKSLASH SLASH  &th SEMICOLON COLON  &th RPAR LPAR  &th RBKT LBKT  &th RIGHT_BRACE LEFT_BRACE  &th PLUS MINUS  &th EQUAL UNDERSCORE  &kp DOWN  &ths CARET ASTERISK  &th GREATER_THAN LESS_THAN  &th AMPERSAND PIPE  &ths RIGHT_ALT HASH  &th EXCLAMATION COMMA  &th QUESTION DOT  &th TILDE DOLLAR  &kp DELETE  &kp BSPC  &th ENTER SPACE  &th ESCAPE TAB
+&th PAGE_UP LS(N1)  &th HOME LS(N2)  &th END LS(N3)  &ths LEFT_SHIFT LS(N4)  &th LS(PAGE_DOWN) LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &th DOUBLE_QUOTES SINGLE_QUOTE  &kp LEFT  &kp UP  &kp RIGHT  &thl 0 PERCENT  &th BACKSLASH SLASH  &th SEMICOLON COLON  &th RPAR LPAR  &th RBKT LBKT  &th RIGHT_BRACE LEFT_BRACE  &th PLUS MINUS  &th EQUAL UNDERSCORE  &kp DOWN  &ths CARET ASTERISK  &th GREATER_THAN LESS_THAN  &th AMPERSAND PIPE  &ths AT_SIGN HASH  &th EXCLAMATION COMMA  &th QUESTION DOT  &th TILDE DOLLAR  &kp DELETE  &kp BSPC  &th ENTER SPACE  &th ESCAPE TAB
             >;
         };
 
@@ -78,6 +78,12 @@
         layer_4 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &sk LCTRL  &kp C  &kp V  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&th PAGE_UP LS(N1)  &th HOME LS(N2)  &th END LS(N3)  &ths LEFT_SHIFT LS(N4)  &th LS(PAGE_DOWN) LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &th LS(DOUBLE_QUOTES) LS(SQT)  &kp LEFT  &kp UP  &kp RIGHT  &thl 0 RA(N8)  &th BACKSLASH SLASH  &th SEMICOLON COLON  &th RPAR LPAR  &th RBKT LBKT  &th RIGHT_BRACE LEFT_BRACE  &th N1 UNDERSCORE  &th LS(MINUS) MINUS  &kp DOWN  &ths CARET ASTERISK  &th GREATER_THAN LESS_THAN  &th AMPERSAND PIPE  &ths AT_SIGN HASH  &th EXCLAMATION COMMA  &th QUESTION DOT  &th TILDE DOLLAR  &kp DELETE  &kp BSPC  &th ENTER SPACE  &th ESCAPE TAB
             >;
         };
     };
