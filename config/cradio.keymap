@@ -17,7 +17,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "B_E";
             #binding-cells = <0>;
-            bindings = <&th N0 E>, <&kp N2>;
+            bindings = <&th RA(N0) E>, <&kp RA(N2)>;
         };
 
         ths: tap-hold-sticky {
@@ -53,7 +53,19 @@
 
         letters {
             bindings = <
-&kp Q  &kp W  &kp F  &ths LEFT_SHIFT P  &kp B  &kp J  &tht CAPSLOCK L  &th DOUBLE_QUOTES U  &th N7 Y  &to 3  &th N8 A  &th N5 R  &th NUMBER_3 S  &thl 5 T  &kp G  &kp M  &th LCMD N  &b_e  &th N9 I  &kp O  &kp X  &th NUMBER_4 C  &kp D  &ths LEFT_CONTROL V  &th NUMBER_6 Z  &kp K  &ths LEFT_ALT H  &th EXCLAMATION COMMA  &th QUESTION DOT  &kp DOT  &kp DELETE  &kp BSPC  &th ENTER SPACE  &th ESCAPE TAB
+&kp Q  &kp W  &kp F  &ths LEFT_SHIFT P  &kp B  &kp J  &tht CAPSLOCK L  &th RA(DOUBLE_QUOTES) U  &th RA(N7) Y  &to 2  &th RA(N8) A  &th RA(N5) R  &th RA(NUMBER_3) S  &thl 1 T  &kp G  &kp M  &th LCMD N  &b_e  &th RA(N9) I  &kp O  &kp X  &th RA(NUMBER_4) C  &kp D  &ths LEFT_CONTROL V  &th RA(NUMBER_6) Z  &kp K  &ths LEFT_ALT H  &th EXCLAMATION COMMA  &th QUESTION DOT  &kp DOT  &kp DELETE  &kp BSPC  &th ENTER SPACE  &th ESCAPE TAB
+            >;
+        };
+
+        symbols {
+            bindings = <
+&th PAGE_UP N1  &th HOME N2  &th END N3  &ths LEFT_SHIFT N4  &th LS(PAGE_DOWN) N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &th DOUBLE_QUOTES SINGLE_QUOTE  &kp LEFT  &kp UP  &kp RIGHT  &thl 0 PERCENT  &th BACKSLASH SLASH  &th SEMICOLON COLON  &th RPAR LPAR  &th RBKT LBKT  &th RIGHT_BRACE LEFT_BRACE  &th PLUS MINUS  &th EQUAL UNDERSCORE  &kp DOWN  &th CARET ASTERISK  &th GREATER_THAN LESS_THAN  &th AMPERSAND PIPE  &th AT_SIGN HASH  &th EXCLAMATION COMMA  &th QUESTION DOT  &th TILDE DOLLAR  &kp DELETE  &kp BSPC  &th ENTER SPACE  &th ESCAPE TAB
+            >;
+        };
+
+        function_keys {
+            bindings = <
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp RGUI  &to 0  &to 0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -69,21 +81,9 @@
             >;
         };
 
-        function_keys {
-            bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp RGUI  &to 0  &to 0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
         english {
             bindings = <
 &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp DOT  &kp A  &kp R  &kp S  &kp T  &kp G  &kp M  &kp N  &kp E  &kp I  &kp O  &kp X  &kp C  &kp D  &kp V  &kp Z  &kp K  &kp H  &kp DOT  &kp DOT  &kp DOT  &kp ESC  &kp BSPC  &kp SPACE  &kp RET
-            >;
-        };
-
-        symbols {
-            bindings = <
-&th PAGE_UP LS(N1)  &th HOME LS(N2)  &th END LS(N3)  &ths LEFT_SHIFT LS(N4)  &th LS(PAGE_DOWN) LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &th DOUBLE_QUOTES SINGLE_QUOTE  &kp LEFT  &kp UP  &kp RIGHT  &thl 0 PERCENT  &th BACKSLASH SLASH  &th SEMICOLON COLON  &th RPAR LPAR  &th RBKT LBKT  &th RIGHT_BRACE LEFT_BRACE  &th PLUS MINUS  &th EQUAL UNDERSCORE  &kp DOWN  &th CARET ASTERISK  &th GREATER_THAN LESS_THAN  &th AMPERSAND PIPE  &th AT_SIGN HASH  &th EXCLAMATION COMMA  &th QUESTION DOT  &th TILDE DOLLAR  &kp DELETE  &kp BSPC  &th ENTER SPACE  &th ESCAPE TAB
             >;
         };
     };
