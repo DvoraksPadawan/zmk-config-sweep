@@ -53,13 +53,13 @@
 
         letters {
             bindings = <
-&kp Q  &kp W  &kp F  &ths LEFT_SHIFT P  &kp B  &kp J  &tht CAPSLOCK L  &th DOUBLE_QUOTES U  &th N7 Y  &to 2  &th N8 A  &th N5 R  &th NUMBER_3 S  &thl 1 T  &kp G  &kp M  &th LCMD N  &b_e  &th N9 I  &kp O  &kp X  &th NUMBER_4 C  &kp D  &ths LEFT_CONTROL V  &th NUMBER_6 Z  &kp K  &ths LEFT_ALT H  &th EXCLAMATION COMMA  &th QUESTION DOT  &kp DOT  &th ESC TAB  &kp BSPC  &kp SPACE  &kp ENTER
+&kp Q  &kp W  &kp F  &ths LEFT_SHIFT P  &kp B  &kp J  &tht CAPSLOCK L  &th DOUBLE_QUOTES U  &th N7 Y  &to 2  &th N8 A  &th N5 R  &th NUMBER_3 S  &thl 1 T  &kp G  &kp M  &th LCMD N  &b_e  &th N9 I  &kp O  &kp X  &th NUMBER_4 C  &kp D  &ths LEFT_CONTROL V  &th NUMBER_6 Z  &kp K  &ths LEFT_ALT H  &th EXCLAMATION COMMA  &th QUESTION DOT  &kp DOT  &kp DELETE  &kp BSPC  &th ENTER SPACE  &th ESCAPE TAB
             >;
         };
 
         symbols {
             bindings = <
-&kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &ths LEFT_SHIFT LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &th DOUBLE_QUOTES SINGLE_QUOTE  &kp LEFT  &kp UP  &kp RIGHT  &thl 0 PERCENT  &th BACKSLASH SLASH  &th SEMICOLON COLON  &th RPAR LPAR  &th RBKT LBKT  &th RIGHT_BRACE LEFT_BRACE  &th PLUS MINUS  &th EQUAL UNDERSCORE  &kp DOWN  &ths CARET ASTERISK  &th GREATER_THAN LESS_THAN  &th AMPERSAND PIPE  &th AT HASH  &th EXCLAMATION COMMA  &th QUESTION DOT  &th TILDE DOLLAR  &th ESC TAB  &kp BSPC  &kp SPACE  &kp ENTER
+&th PAGE_UP LS(N1)  &th HOME LS(N2)  &th END LS(N3)  &ths PAGE_DOWN LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &th DOUBLE_QUOTES SINGLE_QUOTE  &kp LEFT  &kp UP  &kp RIGHT  &thl 0 PERCENT  &th BACKSLASH SLASH  &th SEMICOLON COLON  &th RPAR LPAR  &th RBKT LBKT  &th RIGHT_BRACE LEFT_BRACE  &th PLUS MINUS  &th EQUAL UNDERSCORE  &kp DOWN  &ths CARET ASTERISK  &th GREATER_THAN LESS_THAN  &th AMPERSAND PIPE  &th AT HASH  &th EXCLAMATION COMMA  &th QUESTION DOT  &th TILDE DOLLAR  &kp DELETE  &kp BSPC  &th ENTER SPACE  &th ESCAPE TAB
             >;
         };
 
