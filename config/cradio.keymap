@@ -1,6 +1,5 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 / {
@@ -54,7 +53,7 @@
 
         letters {
             bindings = <
-&kp Q  &kp W  &kp F  &ths LEFT_SHIFT P  &kp B  &kp J  &tht CAPSLOCK L  &th RA(DOUBLE_QUOTES) U  &th RA(N7) Y  &to 2  &th RA(N8) A  &th RA(N5) R  &th RA(NUMBER_3) S  &thl 1 T  &kp G  &kp M  &th LCMD N  &b_e  &th RA(N9) I  &kp O  &kp X  &th RA(NUMBER_4) C  &kp D  &ths LEFT_CONTROL V  &th RA(NUMBER_6) Z  &kp K  &ths LEFT_ALT H  &th EXCLAMATION COMMA  &th QUESTION DOT  &bt BT_NXT  &kp DELETE  &kp BSPC  &th ENTER SPACE  &th ESCAPE TAB
+&kp Q  &kp W  &kp F  &ths LEFT_SHIFT P  &kp B  &kp J  &tht CAPSLOCK L  &th RA(DOUBLE_QUOTES) U  &th RA(N7) Y  &to 2  &th RA(N8) A  &th RA(N5) R  &th RA(NUMBER_3) S  &thl 1 T  &kp G  &kp M  &th LCMD N  &b_e  &th RA(N9) I  &kp O  &kp X  &th RA(NUMBER_4) C  &kp D  &ths LEFT_CONTROL V  &th RA(NUMBER_6) Z  &kp K  &ths LEFT_ALT H  &th EXCLAMATION COMMA  &th QUESTION DOT  &kp DOT  &kp DELETE  &kp BSPC  &th ENTER SPACE  &th ESCAPE TAB
             >;
         };
 
@@ -66,7 +65,7 @@
 
         function_keys {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp RGUI  &to 0  &to 0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &trans  &bt BT_CLR  &bt BT_CLR_ALL  &trans  &trans  &trans  &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp RGUI  &to 0  &to 0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
