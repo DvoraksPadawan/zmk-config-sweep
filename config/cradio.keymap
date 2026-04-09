@@ -53,7 +53,7 @@
 
         letters {
             bindings = <
-&kp Q  &kp W  &kp F  &ths LEFT_SHIFT P  &kp B  &kp J  &tht CAPSLOCK L  &th RA(DOUBLE_QUOTES) U  &th RA(N7) Y  &to 3  &th RA(N8) A  &th RA(N5) R  &th RA(NUMBER_3) S  &thl 1 T  &kp G  &kp M  &th LCMD N  &b_e  &th RA(N9) I  &kp O  &kp X  &th RA(NUMBER_4) C  &kp D  &ths LEFT_CONTROL V  &th RA(NUMBER_6) Z  &kp K  &ths LEFT_ALT H  &th EXCLAMATION COMMA  &th QUESTION DOT  &kp DOT  &kp DELETE  &kp BSPC  &th ENTER SPACE  &th ESCAPE TAB
+&kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &th RA(DOUBLE_QUOTES) U  &th RA(N7) Y  &to 3  &th RA(N8) A  &th RA(N5) R  &th RA(NUMBER_3) S  &thl 1 T  &kp G  &kp M  &th LCMD N  &b_e  &th RA(N9) I  &kp O  &kp X  &th RA(NUMBER_4) C  &kp D  &kp V  &th RA(NUMBER_6) Z  &kp K  &kp H  &th EXCLAMATION COMMA  &th QUESTION DOT  &kp DOT  &kp DELETE  &kp BSPC  &th ENTER SPACE  &th ESCAPE TAB
             >;
         };
 
