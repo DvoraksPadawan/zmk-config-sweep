@@ -46,6 +46,15 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
+        tsh: tap_sticky_hold {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TAP_STICKY_HOLD";
+            bindings = <&kp>, <&sk>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
     };
 
     keymap {
@@ -84,6 +93,12 @@
         english {
             bindings = <
 &kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp DOT  &kp A  &kp R  &kp S  &kp T  &kp G  &kp M  &kp N  &kp E  &kp I  &kp O  &kp X  &kp C  &kp D  &kp V  &kp Z  &kp K  &kp H  &kp DOT  &kp DOT  &kp DOT  &kp ESC  &kp BSPC  &kp SPACE  &kp RET
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+&kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &th RA(DOUBLE_QUOTES) U  &th RA(N7) Y  &tsh ESCAPE LEFT_ALT  &th RA(N8) A  &th RA(N5) R  &th RA(NUMBER_3) S  &thl 1 T  &kp G  &kp M  &th LCMD N  &b_e  &th RA(N9) I  &kp O  &kp X  &th RA(NUMBER_4) C  &kp D  &kp V  &th RA(NUMBER_6) Z  &kp K  &kp H  &th DOT COMMA  &tsh UNDERSCORE LEFT_SHIFT  &tsh ENTER LCTRL  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp BACKSPACE  &th TAB SPACE
             >;
         };
     };
