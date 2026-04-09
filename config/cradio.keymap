@@ -62,7 +62,7 @@
 
         letters {
             bindings = <
-&kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &th RA(DOUBLE_QUOTES) U  &th RA(N7) Y  &to 3  &th RA(N8) A  &th RA(N5) R  &th RA(NUMBER_3) S  &thl 1 T  &kp G  &kp M  &th LCMD N  &b_e  &th RA(N9) I  &kp O  &kp X  &th RA(NUMBER_4) C  &kp D  &kp V  &th RA(NUMBER_6) Z  &kp K  &kp H  &th EXCLAMATION COMMA  &th QUESTION DOT  &kp DOT  &kp DELETE  &kp BSPC  &th ENTER SPACE  &th ESCAPE TAB
+&kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &th RA(DOUBLE_QUOTES) U  &th RA(N7) Y  &tsh ESCAPE LEFT_ALT  &th RA(N8) A  &th RA(N5) R  &th RA(NUMBER_3) S  &thl 1 T  &kp G  &kp M  &th LCMD N  &b_e  &th RA(N9) I  &kp O  &kp X  &th RA(NUMBER_4) C  &kp D  &kp V  &th RA(NUMBER_6) Z  &kp K  &kp H  &th DOT COMMA  &tsh UNDERSCORE LEFT_SHIFT  &tsh ENTER LCTRL  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp BACKSPACE  &th TAB SPACE
             >;
         };
 
@@ -74,19 +74,19 @@
 
         function_keys {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp RGUI  &to 0  &to 0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp RGUI  &to 6  &to 6  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         layer_4 {
             bindings = <
-&kp RA(N8)  &th RA(NUMBER_6) RA(N8)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &sk LEFT_SHIFT  &trans  &trans  &ths LEFT_SHIFT A  &to 0  &trans  &trans  &trans  &trans  &trans  &sk LCTRL  &kp C  &kp V  &ths LCTRL A  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp RA(N8)  &th RA(NUMBER_6) RA(N8)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &sk LEFT_SHIFT  &trans  &trans  &ths LEFT_SHIFT A  &to 6  &trans  &trans  &trans  &trans  &trans  &sk LCTRL  &kp C  &kp V  &ths LCTRL A  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         layer_6 {
             bindings = <
-&th PAGE_UP LS(N1)  &th HOME LS(N2)  &th END LS(N3)  &ths LEFT_SHIFT LS(N4)  &th LS(PAGE_DOWN) LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &th COLON PIPE  &kp LEFT  &kp UP  &kp RIGHT  &thl 0 RA(N8)  &th BACKSLASH LEFT_BRACE  &th SEMICOLON GREATER_THAN  &th RA(N0) RA(N9)  &th RBKT LBKT  &th RIGHT_BRACE LEFT_BRACE  &th N1 SLASH  &th QUESTION MINUS  &kp DOWN  &th RA(N6) RA(N8)  &th GREATER_THAN LESS_THAN  &th RA(N7) PIPE  &th AT_SIGN HASH  &th RA(N1) COMMA  &th LESS_THAN DOT  &th RA(SEMICOLON) RA(N4)  &kp DELETE  &kp BSPC  &th ENTER SPACE  &th ESCAPE TAB
+&th PAGE_UP LS(N1)  &th HOME LS(N2)  &th END LS(N3)  &ths LEFT_SHIFT LS(N4)  &th LS(PAGE_DOWN) LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &th COLON PIPE  &kp LEFT  &kp UP  &kp RIGHT  &thl 6 RA(N8)  &th BACKSLASH LEFT_BRACE  &th SEMICOLON GREATER_THAN  &th RA(N0) RA(N9)  &th RBKT LBKT  &th RIGHT_BRACE LEFT_BRACE  &th N1 SLASH  &th QUESTION MINUS  &kp DOWN  &th RA(N6) RA(N8)  &th GREATER_THAN LESS_THAN  &th RA(N7) PIPE  &th AT_SIGN HASH  &th RA(N1) COMMA  &th LESS_THAN DOT  &th RA(SEMICOLON) RA(N4)  &kp DELETE  &kp BSPC  &th ENTER SPACE  &th ESCAPE TAB
             >;
         };
 
@@ -96,9 +96,9 @@
             >;
         };
 
-        layer_6 {
+        letters_ {
             bindings = <
-&kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &th RA(DOUBLE_QUOTES) U  &th RA(N7) Y  &tsh ESCAPE LEFT_ALT  &th RA(N8) A  &th RA(N5) R  &th RA(NUMBER_3) S  &thl 1 T  &kp G  &kp M  &th LCMD N  &b_e  &th RA(N9) I  &kp O  &kp X  &th RA(NUMBER_4) C  &kp D  &kp V  &th RA(NUMBER_6) Z  &kp K  &kp H  &th DOT COMMA  &tsh UNDERSCORE LEFT_SHIFT  &tsh ENTER LCTRL  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp BACKSPACE  &th TAB SPACE
+&kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &th RA(DOUBLE_QUOTES) U  &th RA(N7) Y  &to 3  &th RA(N8) A  &th RA(N5) R  &th RA(NUMBER_3) S  &thl 1 T  &kp G  &kp M  &th LCMD N  &b_e  &th RA(N9) I  &kp O  &kp X  &th RA(NUMBER_4) C  &kp D  &kp V  &th RA(NUMBER_6) Z  &kp K  &kp H  &th EXCLAMATION COMMA  &th QUESTION DOT  &kp DOT  &kp DELETE  &kp BSPC  &th ENTER SPACE  &th ESCAPE TAB
             >;
         };
     };
