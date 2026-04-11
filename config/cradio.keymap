@@ -62,13 +62,13 @@
 
         letters {
             bindings = <
-&kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &th RA(DOUBLE_QUOTES) U  &th RA(N7) Y  &tsh ESCAPE LEFT_ALT  &th RA(N8) A  &th RA(N5) R  &th RA(NUMBER_3) S  &thl 1 T  &kp G  &kp M  &th LCMD N  &b_e  &th RA(N9) I  &kp O  &kp X  &th RA(NUMBER_4) C  &kp D  &kp V  &th RA(NUMBER_6) Z  &kp K  &kp H  &th DOT COMMA  &tsh UNDERSCORE LEFT_SHIFT  &tsh ENTER LCTRL  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp BACKSPACE  &th TAB SPACE
+&kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &th RA(DOUBLE_QUOTES) U  &th RA(N7) Y  &tsh ESCAPE LEFT_ALT  &th RA(N8) A  &th RA(N5) R  &th RA(NUMBER_3) S  &thl 1 T  &kp G  &kp M  &th LCMD N  &b_e  &th RA(N9) I  &th ENTER O  &kp X  &th RA(NUMBER_4) C  &kp D  &kp V  &th RA(NUMBER_6) Z  &kp K  &kp H  &th DOT COMMA  &tsh UNDERSCORE LEFT_SHIFT  &tsh MINUS LCTRL  &kp LEFT_ARROW  &kp RIGHT_ARROW  &th TAB SPACE  &kp BACKSPACE
             >;
         };
 
         symbols {
             bindings = <
-&th PAGE_UP N1  &th HOME N2  &th END N3  &ths LEFT_SHIFT N4  &th LS(PAGE_DOWN) N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &th DOUBLE_QUOTES SINGLE_QUOTE  &kp LEFT  &kp UP  &kp RIGHT  &thl 0 PERCENT  &th BACKSLASH SLASH  &th SEMICOLON COLON  &th RPAR LPAR  &th RBKT LBKT  &th RIGHT_BRACE LEFT_BRACE  &th PLUS MINUS  &th EQUAL UNDERSCORE  &kp DOWN  &th CARET ASTERISK  &th GREATER_THAN LESS_THAN  &th AMPERSAND PIPE  &th AT_SIGN HASH  &th EXCLAMATION COMMA  &th QUESTION DOT  &th TILDE DOLLAR  &kp DELETE  &kp BSPC  &th ENTER SPACE  &th ESCAPE TAB
+&th PAGE_UP N1  &th HOME N2  &th END N3  &ths LEFT_SHIFT N4  &th LS(PAGE_DOWN) N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &th DOUBLE_QUOTES SINGLE_QUOTE  &kp LEFT  &kp UP  &kp RIGHT  &thl 0 PERCENT  &th BACKSLASH SLASH  &th SEMICOLON COLON  &th RPAR LPAR  &th RBKT LBKT  &th RIGHT_BRACE LEFT_BRACE  &th PLUS MINUS  &th EQUAL UNDERSCORE  &kp DOWN  &th CARET ASTERISK  &th GREATER_THAN LESS_THAN  &th AMPERSAND PIPE  &th AT_SIGN HASH  &th EXCLAMATION COMMA  &th QUESTION DOT  &th TILDE DOLLAR  &kp LEFT_ARROW  &kp RIGHT_ARROW  &th TAB SPACE  &kp BACKSPACE
             >;
         };
 
